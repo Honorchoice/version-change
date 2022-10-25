@@ -247,3 +247,61 @@ To github.com:Honorchoice/version-change.git
 Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
 $ git diff --staged
 ----------------------------------------------
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git add .
+-----------------------------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.txt.txt
+        modified:   util.txt.txt
+
+----------------------------------------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git reset index.txt
+fatal: ambiguous argument 'index.txt': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+----------------------------------------------
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git reset
+Unstaged changes after reset:
+M       index.txt.txt
+M       util.txt.txt
+
+------------------------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ get status
+bash: get: command not found
+-------------------------------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git checkout
+M       index.txt.txt
+M       util.txt.txt
+Your branch is up to date with 'origin/master'.
+----------------------------------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git reset index.txt.txt
+Unstaged changes after reset:
+M       index.txt.txt
+M       util.txt.txt
+-------------------------------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git checkout index.txt.txt
+Updated 1 path from the index
+-----------------------------------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git reset util.txt.txt
+Unstaged changes after reset:
+M       util.txt.txt
+---------------------------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git checkout util.txt.txt
+Updated 1 path from the index
+----------------------------------------------------------------
