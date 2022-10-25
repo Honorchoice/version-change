@@ -1,0 +1,110 @@
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git init
+Initialized empty Git repository in C:/Users/satya/Desktop/website/git repositry/.git/
+
+--------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git Commonds.txt
+        index.txt.txt
+        util.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+------------------------------------
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git add .
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git commit -m "version 1"
+[master (root-commit) 9100d63] version 1
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 git Commonds.txt
+ create mode 100644 index.txt.txt
+ create mode 100644 util.txt.txt
+--------------------------------------
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git log
+commit 9100d6327baa98d818be2fb5a158842f88ac3534 (HEAD -> master)
+Author: Gaurav chaurasiya <gauravchaurasiya01@gmail.com>
+Date:   Tue Oct 25 22:20:19 2022 +0530
+
+    version 1
+-------------------------------------
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+-------------------------------------
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git config --global user.name "golan chaurasiya"
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git config --global user.email "gauravchaurasiya011@gmail.com"
+
+-----------------------------------------
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git config --global user.name
+golan chaurasiya
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git config --global user.email
+gauravchaurasiya011@gmail.com
+------------------------------------------------
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.txt.txt
+        modified:   util.txt.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+-----------------------------------------------
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git add .
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git commit -m "golan 1"
+[master 1bca870] golan 1
+ 2 files changed, 2 insertions(+)
+----------------------------------------------
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+-----------------------------------------------
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git log
+commit 1bca87062c102aa0788e2e05617e96493f9167d4 (HEAD -> master)
+Author: golan chaurasiya <gauravchaurasiya011@gmail.com>
+Date:   Tue Oct 25 22:26:39 2022 +0530
+
+    golan 1
+
+commit 9100d6327baa98d818be2fb5a158842f88ac3534
+Author: Gaurav chaurasiya <gauravchaurasiya01@gmail.com>
+Date:   Tue Oct 25 22:20:19 2022 +0530
+
+    version 1
+-----------------------------------------------------------
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$
