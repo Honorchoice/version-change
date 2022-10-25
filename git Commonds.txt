@@ -196,7 +196,17 @@ Author: Gaurav chaurasiya <gauravchaurasiya01@gmail.com>
 Date:   Tue Oct 25 22:20:19 2022 +0530
 
     version 1
------------------------------------------------------------
-
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
 Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
-$
+$ git pull origin master
+
+( data fetch to github)
+
+------------------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git push -u origin master
+
+( data update to github)
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
