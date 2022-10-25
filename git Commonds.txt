@@ -244,3 +244,6 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To github.com:Honorchoice/version-change.git
    cf06e5d..27eded0  master -> master
 ----------------------------------------------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git diff --staged
+----------------------------------------------
