@@ -305,3 +305,22 @@ Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (maste
 $ git checkout util.txt.txt
 Updated 1 path from the index
 ----------------------------------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.txt.txt
+        modified:   util.txt.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+-----------------------------------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git checkout .
+Updated 2 paths from the index
+------------------------------------------------------------------
+
