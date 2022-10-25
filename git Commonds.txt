@@ -18,7 +18,19 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ------------------------------------
-
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.44 KiB | 1.44 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:Honorchoice/version-change.git
+   6f8d6ab..c57da01  master -> master
+branch 'master' set up to track 'origin/master'.
+------------------------------------------
 Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
 $ git status
 On branch master
