@@ -210,3 +210,6 @@ $ git push -u origin master
 ( data update to github)
 ---------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git push  origin master
+------------------------------------------------------------
