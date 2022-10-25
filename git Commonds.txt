@@ -20,6 +20,86 @@ nothing added to commit but untracked files present (use "git add" to track)
 ------------------------------------
 
 Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+--------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git remote add origin git@github.com:Honorchoice/version-change.git
+
+-----------------------------------------
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git config user.email
+gauravchaurasiya011@gmail.com
+---------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ ssh-keygen -t ed25519 -C "gauravchaurasiya011@gmail.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/satya/.ssh/id_ed25519):
+Created directory '/c/Users/satya/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/satya/.ssh/id_ed25519
+Your public key has been saved in /c/Users/satya/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:792EprGQjCn6KZUnMamdghA+VgXBtoz2kRIm+SWGcFM gauravchaurasiya011@gmail.com
+The key's randomart image is:
++--[ED25519 256]--+
+|oo++E.           |
+|=+o=.            |
+|++*oo.           |
+|.B.=+            |
+|+.+o.=  S        |
+|. o.* .+ o   .   |
+|   o.oo + o o .  |
+|  .. o   o * o   |
+|  .oo     + . .  |
++----[SHA256]-----+
+
+-----------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ eval "$(ssh-agent -s)"
+Agent pid 1850
+-------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ ssh-add ~/.ssh/id_ed25519
+Identity added: /c/Users/satya/.ssh/id_ed25519 (gauravchaurasiya011@gmail.com)
+-----------------------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ clip < ~/.ssh/id_ed25519.pub
+--------------------------------------------------
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git push -u origin master
+The authenticity of host 'github.com (2402:3a80:1fff:3f::14cf:4952)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+Host key verification failed.
+fatal: Could not read from remote repository.
+---------------------------------------------------------------------------------------
+Please make sure you have the correct access rights
+and the repository exists.
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
+$ git push -u origin master
+The authenticity of host 'github.com (2402:3a80:1fff:3f::14cf:4952)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (10/10), 1.59 KiB | 543.00 KiB/s, done.
+Total 10 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Honorchoice/version-change.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
 $ git add .
 Gaurav Chaurasiya@LAPTOP-MVA8GBV5 MINGW64 ~/Desktop/website/git repositry (master)
 $ git commit -m "version 1"
